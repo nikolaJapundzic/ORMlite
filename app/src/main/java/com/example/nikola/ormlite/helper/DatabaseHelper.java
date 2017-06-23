@@ -29,7 +29,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
 
     @Override
-    public void onCreate(SQLiteDatabase database, ConnectionSource connectionSource) {
+    public void onCreate(SQLiteDatabase db, ConnectionSource connectionSource) {
         try{
             TableUtils.createTable(connectionSource, Film.class);
         }catch(SQLException e){

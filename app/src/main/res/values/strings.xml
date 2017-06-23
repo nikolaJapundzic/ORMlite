@@ -2,4 +2,5 @@
     <string name="app_name">ORMlite</string>
     <string name="unesi_film">Unesi film</string>
     <string name="id">id</string>
+    <string name="prikazi_sve">Prikazi sve</string>
 </resources>
